@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title> Laundr-easy </title>
+    <link href="bootstrap-4.1.2-dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+</head>
+<style>
+    .jumbotron {
+        text-align: center;
+        color: white;
+        font-weight: 300;
+        background: linear-gradient(269deg, #000000, #ffffff);
+        background-size: 400% 400%;
+
+        -webkit-animation: AnimationName 42s ease infinite;
+        -moz-animation: AnimationName 42s ease infinite;
+        animation: AnimationName 42s ease infinite;
+
+    }
+
+    .motto {
+        color: red;
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    .arrow {
+        padding-bottom: 20px;
+    }
+
+
+    @-webkit-keyframes AnimationName {
+        0% {
+            background-position: 0% 51%
+        }
+        50% {
+            background-position: 100% 50%
+        }
+        100% {
+            background-position: 0% 51%
+        }
+    }
+
+    @-moz-keyframes AnimationName {
+        0% {
+            background-position: 0% 51%
+        }
+        50% {
+            background-position: 100% 50%
+        }
+        100% {
+            background-position: 0% 51%
+        }
+    }
+
+    @keyframes AnimationName {
+        0% {
+            background-position: 0% 51%
+        }
+        50% {
+            background-position: 100% 50%
+        }
+        100% {
+            background-position: 0% 51%
+        }
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Laundr-easy</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="home.html">About</a>
+                <a class="nav-item nav-link" href="#">Purchase</a>
+                <a class="nav-item nav-link" href="review.html">Review<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link disabled" href="#">Disabled</a>
+            </div>
+        </div>
+    </nav>
+    <div class="jumbotron">
+        <h1 class="motto">Customer Review</h1>
+    </div>
+    <div class="container">
+        <h4>Please fill out this survey so we may continue to provide an optimal experience for the customer.</h4>
+        <img class="arrow" src="Images/downarrow.png" alt="Logo" width="40" height="50">
+        <br/>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScxyBsRDHIcVOwHiWolt86WNGgyyr1mCRyA90j7eTMynPM41g/viewform?embedded=true" width="1100" height="1479" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    </div>
+    <div class="container fluid padding">
+        <div class="row padding">
+            <div class="col-lg-6">
+                <h2> How It Works </h2>
+                <p>
+                    Laundr-easy is a product designed to significantly reduce the time it takes to do your laundry. The user would simply mount the clothes on a platform and an electrically powered mechanism would quickly fold them. In addition, This platform can hold multiple
+                    clothes at once for increased efficiency. The end result would be an organized, neatly folded stack of clothes.
+                </p>
+                <br>
+            </div>
+            <div class="col-lg-6">
+                <img src="Images/Laundr-easy.png" class="img-fluid bob float-center">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
